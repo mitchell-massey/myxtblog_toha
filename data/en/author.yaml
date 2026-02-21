@@ -1,21 +1,20 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "Mitchell Massey"
+nickname: "Mitchell"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/author/john.png"
+image: "images/author/mitchell.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+  email: "mitchell@myxt.io"
+  phone: "+1 (806) 215-2258"
+  github: mitchell-massey
+  linkedin: mitchellmassey
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - I am a Creative Strategist with experience in technical UX, non-traditional interfaces, and large scale technical exhibits.
+  - I am an Interactive Producer, Product Manager, and Project Manager with a degree in Interactive Technology, Digital Game Development - Level Design and Production
+  - I work on educational software products, real-time streaming products, augmented reality apps, and trade show exhibits.
+  - I am experienced in social media marketing, public speaking, and multi-media presentation design.
+  - I enjoy DIY projects and home improvement; music - guitar, voice, keys; home lab and smart home technology; and cooking.

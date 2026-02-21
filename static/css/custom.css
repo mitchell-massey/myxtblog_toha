@@ -1,0 +1,53 @@
+
+.home .background {
+  filter: none !important;
+}
+
+
+
+/* ----------------------------- */
+
+/* Fix for blurry background image */
+/* This ensures the background image renders crisply at full resolution */
+
+/* Target the specific background image container used by Toha theme */
+/* #homePageBackgroundImageDivStyled,
+.background { */
+ /*  background-size: cover !important;
+  /* background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  /* CRITICAL: Remove the blur filter that the theme applies */
+  /* filter: none !important;
+  -webkit-filter: none !important;
+  /* Remove the scale transform that can cause blur */
+ /*  transform: none !important;
+  -webkit-transform: none !important;
+  /* Enable hardware acceleration for smoother rendering */
+/*   -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  /* Optimize image rendering for photos - auto provides best quality for photographic images */
+/*   image-rendering: auto !important;
+  /* Prevent subpixel rendering issues */
+  /* -webkit-font-smoothing: antialiased !important;
+/*   -moz-osx-font-smoothing: grayscale !important;
+  /* Ensure the element doesn't get scaled in a way that causes blur */
+  /* will-change: transform !important;
+}
+
+/* Additional optimizations for high-DPI displays */
+/* @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #homePageBackgroundImageDivStyled {
+    /* For high-DPI, let the browser use its best rendering */
+   /*  image-rendering: auto !important;
+  }
+}
+
+/* Ensure no blur filters are applied to the background or its children */
+/* #homePageBackgroundImageDivStyled,
+#homePageBackgroundImageDivStyled * {
+  filter: none !important;
+  -webkit-filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}

@@ -1,0 +1,28 @@
+<!-- CRITICAL FIX: Remove blur filter from background - injects right after style block -->
+<style>
+  #homePageBackgroundImageDivStyled,
+  .background {
+    filter: none !important;
+    -webkit-filter: none !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+  }
+</style>
+<script>
+  (function() {
+    const style = document.createElement('style');
+    style.textContent = '#homePageBackgroundImageDivStyled,.background{filter:none!important;-webkit-filter:none!important;transform:none!important;-webkit-transform:none!important}';
+    document.head.appendChild(style);
+    function fix() {
+      document.querySelectorAll('#homePageBackgroundImageDivStyled,.background').forEach(el => {
+        el.style.setProperty('filter', 'none', 'important');
+        el.style.setProperty('-webkit-filter', 'none', 'important');
+        el.style.setProperty('transform', 'none', 'important');
+        el.style.setProperty('-webkit-transform', 'none', 'important');
+      });
+    }
+    fix();
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fix);
+    setTimeout(fix, 10); setTimeout(fix, 100); setTimeout(fix, 500);
+  })();
+</script>

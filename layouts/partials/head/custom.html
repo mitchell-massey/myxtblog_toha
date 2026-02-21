@@ -1,0 +1,36 @@
+<!-- Custom CSS for fixing blurry background image -->
+<link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+<script src="{{ "/js/remove-blur.js" | relURL }}" defer></script>
+<style>
+  /* Inline critical CSS to ensure it loads immediately - REMOVE BLUR FILTER */
+  #homePageBackgroundImageDivStyled,
+  .background {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    /* CRITICAL: Remove the blur(3px) filter that the theme applies */
+    filter: none !important;
+    -webkit-filter: none !important;
+    /* Remove the scale(1.1) transform that can cause blur */
+    transform: none !important;
+    -webkit-transform: none !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+    image-rendering: auto !important;
+    will-change: transform !important;
+  }
+  #homePageBackgroundImageDivStyled *,
+  .background * {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+</style>
+<script>
+// Inline script to remove blur immediately - runs before page loads
+(function() {
+  const style = document.createElement('style');
+  style.textContent = '#homePageBackgroundImageDivStyled,.background{filter:none!important;-webkit-filter:none!important;transform:none!important;-webkit-transform:none!important}';
+  (document.head || document.documentElement).appendChild(style);
+})();
+</script>

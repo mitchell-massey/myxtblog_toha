@@ -10,19 +10,16 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
+- name: Masters of Interactive Technology, Digital Game Development, Focus in Production and Level Design
+  icon: fa-game-controller
+  timeframe: 2015-2017
   institution:
-    name: ABC University of Technology
-    url: "#"
+    name: Southern Methodist University (Guildhall)
+    url: "https://www.smu.edu/guildhall"
     logo: /images/sections/education/tech_college.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
+
   publications: #(optional)
   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     url: "#"
@@ -30,19 +27,17 @@ degrees:
     url: "#"
   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
     url: "#"
-- name: B.Sc. in Computer Science & Engineering
+
+- name: B.A., Cognitive Sciences
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2011-2015
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Rice University
+    url: "https://www.rice.edu"
     logo: /images/sections/education/university.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
