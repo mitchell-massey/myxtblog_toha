@@ -3,6 +3,16 @@
   filter: none !important;
 }
 
+/* Hide the blinking cursor */
+.ityped-cursor {
+    display: none;
+}
+
+/* Optional: Stop the typing animation */
+.ityped-container {
+    animation: none;
+}
+
 
 
 /* ----------------------------- */

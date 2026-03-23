@@ -65,7 +65,7 @@ enableEmoji: true
 params:
   # Background image of the landing page - must be in assets/ for Hugo resource processing
   # Path is relative to assets/ directory
-  background: /images/site/background.png
+  background: /images/site/background3.png
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
@@ -75,8 +75,6 @@ params:
     main: /images/site/main-logo.png
     inverted: /images/site/inverted-logo.png
     favicon: /images/site/favicon.png
-
-
 
   # GitHub repo of your site
   gitRepo: https://github.com/mitchell-massey/myxtblog_toha

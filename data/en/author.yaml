@@ -14,7 +14,9 @@ contactInfo:
 # some summary about what you do
 summary:
   - I am a Creative Strategist with experience in technical UX, non-traditional interfaces, and large scale technical exhibits.
-  - I am an Interactive Producer, Product Manager, and Project Manager with a degree in Interactive Technology, Digital Game Development - Level Design and Production
-  - I work on educational software products, real-time streaming products, augmented reality apps, and trade show exhibits.
-  - I am experienced in social media marketing, public speaking, and multi-media presentation design.
-  - I enjoy DIY projects and home improvement; music - guitar, voice, keys; home lab and smart home technology; and cooking.
+  #- I am an Interactive Producer, Product Manager, and Project Manager with a degree in Interactive Technology, Digital Game Development - Level Design and Production
+  #- I work on educational software products, real-time streaming products, augmented reality apps, and trade show exhibits.
+  #- I am experienced in social media marketing, public speaking, and multi-media presentation design.
+  #- I enjoy DIY projects and home improvement; music - guitar, voice, keys; home lab and smart home technology; and cooking.
+
+disableTyping: true

@@ -11,61 +11,88 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: "all"
+  - name: Basic
+    filter: "basic"
+  - name: Language
+    filter: "language"
+  - name: Container
+    filter: "container"
+  - name: Others
+    filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: "Innovation Strategy & Framework Design"
+    logo: "/images/sections/skills/strategy.jpeg"
+    summary: "Expert in developing agency-wide strategy frameworks and OKRs. Proven track record of aligning creative initiatives with long-term business goals for Fortune 500 clients."
+    categories: ["strategy", "leadership"]
+    url: "https://www.900lbs.com/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: "Productization & White-Label Strategy"
+    logo: "/images/sections/skills/product.png"
+    summary: "Specialized in identifying high-potential R&D projects and converting bespoke interactive experiences into scalable, repeatable product offerings."
+    categories: ["product-management"]
+    url: ""
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: "Human-Centered Design (HCD) & UX Research"
+    logo: "/images/sections/skills/ux-research.png"
+    summary: "Grounded in Cognitive Science; experienced in leading deep-dive discovery, usability research, and quantitative analysis to drive product decisions."
+    categories: ["research", "ux"]
+    url: "https://cogsci.rice.edu/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: "Cross-Functional Team Leadership"
+    logo: "/images/sections/skills/leadership.png"
+    summary: "Coaching and managing multi-disciplinary teams of PMs, Developers, and Designers to deliver complex interactive portfolios exceeding $10M."
+    categories: ["leadership", "management"]
+    url: ""
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: "Emerging Technology R&D (AI/AR/VR)"
+    logo: "/images/sections/skills/tech.png"
+    summary: "Directing R&D for cutting-edge technologies including real-time engines (Unity/Unreal), mixed reality, and AI system integration (ClickUp AI Expert)."
+    categories: ["technical", "innovation"]
+    url: "https://www.smu.edu/guildhall"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: "Rapid Prototyping & Technical Production"
+    logo: "/images/sections/skills/prototyping.png"
+    summary: "Overseeing the full lifecycle of complex technical projects from concept to deployment in high-stakes environments like the Royal Caribbean Safety Command Center."
+    categories: ["technical", "product-management"]
+    url: ""
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: "Immersive & Experiential UX"
+    logo: "/images/sections/skills/experience.png"
+    summary: "Designing non-traditional interfaces and multi-sensory brand activations that bridge the gap between physical spaces and digital interactions."
+    categories: ["ux", "design"]
+    url: ""
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: "Complex Program Management"
+    logo: "/images/sections/skills/program.png"
+    summary: "Orchestrating large portfolios (50+ projects) using Hybrid Waterfall/Agile methodologies while maintaining rigorous budget and quality standards."
+    categories: ["management", "operations"]
+    url: ""
+
+  - name: "Process Optimization & Change Management"
+    logo: "/images/sections/skills/workflow.png"
+    summary: "Refining operational workflows and driving internal adoption of tools like ClickUp and JIRA to increase R&D throughput and project visibility."
+    categories: ["operations"]
+    url: ""
+
+  - name: "Design Thinking & Workshop Facilitation"
+    logo: "/images/sections/skills/workshop.png"
+    summary: "Leading high-impact innovation workshops (e.g., DFW Airport) that generate actionable insights and lead to new multi-year special projects."
+    categories: ["strategy", "facilitation"]
+    url: ""
+
+  - name: "Data-Driven Decision Making"
+    logo: "/images/sections/skills/analytics.png"
+    summary: "Utilizing Google Analytics, RStudio, and Tableau to extract insights that optimize project performance and user engagement metrics."
+    categories: ["research", "analytics"]
+    url: ""
+
+  - name: "Strategic Business Development"
+    logo: "/images/sections/skills/sales.png"
+    summary: "Partner-level experience in managing client relationships, scoping Statements of Work (SOWs), and identifying market gaps for new business growth."
+    categories: ["strategy", "leadership"]
+    url: ""
