@@ -16,50 +16,150 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Personal & Hobby
+  filter: "personal/hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+#name: Kubernetes
+ # logo: /images/sections/projects/kubernetes.png
+ # role: Contributor
+ # timeline: "March 2018 - Present"
+ # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+ # summary: Production-Grade Container Scheduling and Management.
+ # tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+#naime: Tensorflow
+ # logo: /images/sections/projects/tensorflow.png
+  #role: Developer
+  #timeline: "Jun 2018 - Present"
+  #repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  #summary: An Open Source Machine Learning Framework for Everyone.
+  #tags: ["professional", "machine-learning"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
+- name: My Portfolio Site
+  logo: /images/sections/projects/hugo.png
   image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  role: Developer
+  timeline: "Oct 2025 - Present"
+  repo:  https://github.com/mitchell-massey/myxtblog_toha
+  summary: I developed a site for personal portfolio using nvim, Cursor, Hugo, Gemini, and Toha website theme.
+  tags: ["personal/hobby","hugo","theme","professional", "homelab", "development"]
+
+- name: Self-Hosted FoundryVTT Instance
+  logo: /images/sections/projects/fvtt.png
+  image: /images/sections/projects/fvtt_full.jpg
+  role: Developer
+  timeline: "Jan 2023 - Present"
+  tags: ["personal/hobby", "TTRPG", "homelab"]
+  summary: "I self host a FoundryVTT instance for TTRPG and sandbox development (ex: custom JS plugins)"
+
+- name: Smart Home Assistant.
+  logo: /images/sections/projects/homeassistant.png
+  image: /images/sections/projects/homeassistant.png
+  role: Developer
+  timeline: "Oct 2025 - Present"
+  tags: ["personal/hobby", "Smart Home", "homelab"]
+  summary: "I self host a Home Assistant (smart home hub) to control security cameras, lights, and other smart home applicances locally and securely."
+
+- name: "DFW Airport Innovation Workshop"
+  logo: /images/sections/projects/DFW_logo.jpeg
+  image: /images/sections/projects/DFW_cover.jpeg
+  role: "Directed Keynote and Workshop Materials"
+  timeline: "2025 - 2025"
+  repo: 
+  summary: "Directed a large-scale innovation workshop exploring immersive technologies to enhance passenger and employee experiences, generating over 300 insights and leading to 8+ new special projects."
+  tags: ["professional"]
+
+- name: "LA Metro Community Workshop Digital Mapping Experience"
+ # logo: /images/sections/projects/la-metro-logo.png
+ # image: /images/sections/projects/la-metro-mapping.jpg
+  role: "UX Design & Mapping Content Strategy Lead"
+  timeline: "2024 - 2025"
+  repo: 
+  summary: "Produced an interactive application for stakeholders to visualize cultural assets along the Vermont corridor, informing design studies for the 2026 World Cup and 2028 Olympics."
+  tags: ["professional"]
+
+- name: "RCCL Safety Command Center"
+  #logo: /images/sections/projects/rccl-logo.png
+  #image: /images/sections/projects/safety-command-center.jpg
+  role: "Excalibur Innovation Team Member"
+  timeline: "2018 - 2023"
+  repo: 
+  summary: "Collaborated with Royal Caribbean’s Excalibur Innovation Team to develop a high-tech safety command center interface."
+  tags: ["professional"]
+
+- name: "Frisco EDC Sales Experience Center"
+ # logo: /images/sections/projects/smart-city-logo.png
+  image: /images/sections/projects/friscoedc_cover.png
+  role: "Innovation Strategist"
+  timeline: "2024 - 2026"
+  repo: 
+  summary: "Directed the strategy and development for a complex Smart City Innovation LED Wall (Subject to NDA)."
+  tags: ["professional"]
+
+- name: "Energy XP Mobile Learning Program"
+#  logo: /images/sections/projects/eef-logo.png
+  image: /images/sections/projects/exp_cover.jpeg
+  role: "Interactive Producer"
+  timeline: "2024 - 2026"
+  repo: 
+  summary: "Developed a mobile energy learning program for the Energy Education Foundation to provide interactive educational content."
+  tags: ["professional"]
+
+- name: "Treeline Community Mixed Reality Tour"
+ # logo: /images/sections/projects/hillwood-logo.png
+  image: /images/sections/projects/hillwood_cover.jpeg
+  role: "Interactive Producer"
+  timeline: "2024 - 2024"
+  repo: 
+  summary: "Created a mixed reality tour for Hillwood Communities to help potential residents visualize the Treeline Community development."
+  tags: ["professional"]
+
+- name: "Bell Flight Manufacturing Technology Center Innovation Table"
+ # logo: /images/sections/projects/bell-flight-logo.png
+ # image: /images/sections/projects/bell-innovation-table.jpg
+  role: "Interactive Producer"
+  timeline: "2021 - 2022"
+  repo: 
+  summary: "Designed and delivered a cinematic and interactive innovation table for Bell Flight’s Manufacturing Technology Center."
+  tags: ["professional"]
+
+- name: "Resideo Smart Home Technology Center"
+  #logo: /images/sections/projects/resideo-logo.png
+ # image: /images/sections/projects/resideo-cx.jpg
+  role: "Interactive Producer"
+  timeline: "2021 - 2022"
+  repo: 
+  summary: "Developed a customer experience center showcasing smart home technology and integrated IoT solutions."
+  tags: ["professional"]
+
+- name: "AWS Gamified Employee Onboarding"
+  #logo: /images/sections/projects/aws-logo.png
+  #image: /images/sections/projects/aws-onboarding.jpg
+  role: "Strategist & Producer"
+  timeline: "2021 - 2021"
+  repo: 
+  summary: "Created a gamified onboarding experience for Amazon Web Services to streamline and enhance the new hire process."
+  tags: ["professional"]
+
+- name: "Master's Thesis: Mixed Reality Platform Selection"
+  #logo: /images/sections/projects/smu-logo.png
+ # image: /images/sections/projects/thesis-mr.jpg
+  role: "Researcher & Author"
+  timeline: "2017 - 2017"
+  repo: 
+  summary: "Academic research focused on the selection criteria and effectiveness of Mixed Reality platforms within enterprise environments."
+  tags: ["academic"]
+
+- name: "Live Avatar VR Simulation"
+ # logo: /images/sections/projects/smu-guildhall-logo.png
+  #image: /images/sections/projects/avatar-project.jpg
+  role: "Psychology Researcher"
+  timeline: "2016 - 2016"
+  repo: 
+  summary: "Conducted psychology research using live avatar VR simulations to study human interaction and presence in virtual environments."
+  tags: ["acaademic"]
+
