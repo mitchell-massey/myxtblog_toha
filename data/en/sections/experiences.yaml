@@ -20,54 +20,71 @@ experiences:
       # company overview
       overview: 900lbs is a premier, innovative, experiential agency specializing in technical user experiences and large scaled installations.
     positions:
-      - designation: Sr. Strategist
-        start: Jan 2024
+      - designation: Sr. Strategist & Interactive Producer
+        start: March 2017
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
         responsibilities:
-          - Design and develop XYZ tool for ABC task
-          - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-          - Lead backend team.
-
-      - designation: Junior Software Engineer
-        start: Nov 2017
-        end: Oct 2019
+          - "__Studio Leadership__: I spearheaded the agency’s strategic framework and OKRs while managing cross-functional teasm of 15+ full time employees & 10 partnered contractors, directing complex change management and project discovery to ensure seamless process and tool adoption."
+          - "__Strategy__: I spearheaded the operationalization of AI systems and UX research that drove a 60% increase in R&D throughput and a 70% boost in project performance, leveraging innovation workshops to accelerate time-to-market and cultivate white-label product opportunities."
+          - "__Interactive Production & Project Management__: I spearheaded the end-to-end delivery of 50+ interactive projects for Fortune 500 clients, designing optimized Agile/Waterfall hybrid processes and data visibility routines to maintain rigorous standards for budget, timeline, and quality."
+          - "__Clients__: Amazon Web Services, Bell Flight / Textron Systems, Boy Scouts of America, Caris Life Sciences, Climate Control Group, CoolSys, DFW Airport (innovation team), DXC Technology, Energy Education Foundation, Ericsson, Ernst & Young, FIFA World Cup, Frisco EDC, Gatorade / Pepsi Co, Hillwood Communities, HII, Interstate Batteries, Leon Capital Group, Junior Achievement, LA28 Olympics, Los Angeles METRO, NCR, Perot Museum, Resideo, Royal Caribbean Group, STV Inc.,  Visit Dallas, Visite Seattl, XNGY"
+  - company:
+      name: PeerVsn
+      location: Dallas, Texas
+      url: "https://www.peervsn.com"
+      logo: /images/sections/experiences/logo_peervsn.jpeg
+      overview: The founders of Dallas-based Glass-Media, Daniel Black, and 900lbs, Steve Deitz joined forces to introduce PeerVsn, a cutting-edge streaming platform poised to revolutionize real-time, life-size, peer-to-peer communications. This collaboration leverages the unique capabilities of both companies to bring a portable, battery powered streaming to the masses. After extensive R&D in stealth mode and with a second-mover advantage, the PeerVsn platform is designed for seamless deployment across various verticals including education, entertainment, sports, corporate, healthcare and retail. PeerVsn is engineered for versatility and ease of use, enabling platform hosts to engage audiences from anywhere in the world with a simple studio kit that can be set up in minutes. The compact design of PeerVsn allows it to easily fit within elevators and navigate through narrow corridors such as hallways, walkways and doorways, enhancing its usability across a wide range of environments.
+    positions:
+      - designation: Head of Product
+        start: September 2023
         responsibilities:
-          - Implement and test xyz feature for abc tool.
-          - Support client for abc tool.
-          - Learn k,d,w technology for xyz.
+          - As Head of Product and Innovation, accountable for all product R&D and product management processes for a complex stackincluding  exploratory front-end / new feature development, complex backend CMS / CDN  connections, 5G Network Testing, and hardware peripheries. Complex stack configuration within real-time engine. Our lean team delivered 3+ go-to-market variations, 100+ features,  300+ bugs resolved, and over 30 stack alternatives researched  over 17 sprints, resulting in a launch-ready MVP for sales.
+          - Executive leader delivering mission critical product leadership across 1.5 years of  Go-To-Market rapid development and R&D. Operationalized Developer Success from initial product ideation, through to final launch-ready MVP.
+          - Directed telepresence platform’s cross functional feature R&D and development across 17 Sprints, 1.5 years.
+          - Managed DevOps, IT, and marketing communication platforms, including social media accounts, website, product roadmaps, and external vendors.
+          - Presented PR product initiatives for InfoComm Awards and AV Publications. Delivered pitch presentation resulting in award “Best New Technology” at InfoComm 2024 by rAVe [PUBS].
+  - company:
+      name: Master's Program Work at Southern Methodist University (Guildhall)
+      location: Dallas, TX
+      overview: Masters of Interactive Technology, Digital Game Development, with focus in Level Design and Production
+    positions:
+      - designation: Master's Thesis
+        start:
+        responsibilities:
+          - Platform Review Process for Virtual and Mixed Reality | 20 Weeks, 2017"
+      - designation: Usability Producer, Project Micro (Capstone Game)
+        start:
+        responsibilities:
+          - Vive puzzle game| Unreal Engine 4.13 | 18 Developers | 14 Weeks, 2016
+      - designation: Pre-Production & Usability Producer, Dawn (Capstone)
+        start:
+        responsibilities:
+          - Artistic PC platforming game | Unreal Engine 4.13 | 8 Developers | 26 Weeks, 2016
+      - designation: Assistant Producer, Female Avatar Project (Focus Study in Social VR)
+        start:
+        responibilities:
+          - Social Oculus experience | Unity 5 | 5 Developers | 8 Weeks, 2016
+      - designation: Producer, Azimuth (Team Game Production 2)
+        start:
+        responsibilities:
+          - LAN FPS for PC | Unreal Engine 4.10 | 9 Developers | 16 Weeks, 2016
+      - designation: Assistant Lead & Level Designer , Lonely HAL (Team Game Production 1)
+        start:
+        responsibilities:
+          - Android OS Puzzle Game | Unity 5 | 5 Developers
 
   - company:
-      name: PreExample Co.
-      url: "https://www.example.com"
-      location: Nowhere
-      logo: /images/sections/experiences/company2.jpg
-      # Can optionally show a different logo for dark theme
-      # darkLogo: /images/sections/experiences/company2.jpg
-      overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+      name: Design for Use
+      location: Austin, TX
+      overview:
     positions:
-      - designation: Software Engineer
-        start: March 2016
-        end: May 2017
+      - designation: UX Researcher
+        start: May 2015
+        end: Aug 2015
         responsibilities:
-          - Write lots of example codes.
-          - Read lots of examples.
-          - See lots of example videos.
-
-  - company:
-      name: Intern Counting Company (ICC).
-      url: "https://www.example.com"
-      location: Intern Land
-      logo: /images/sections/experiences/company3.jpg
-      # Can optionally show a different logo for dark theme
-      # darkLogo: /images/sections/experiences/company3.jpg
-      overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-    positions:
-      - designation: Intern
-        start: Jun 2015
-        end: Jan 2016
-        responsibilities:
-          - Count lost of interns.
-          - Count more interns.
-          - Count me as an intern.
+          - "__Accounts__: New Home Source Professional, ViaSat, BDX Live"
+          - Accountable for UX research, tester recruiting / payment.
+          - Drove insights to achieve web design and business objectives in real estate, CMS, and lawn maintenance.
+          - Generated rapid UX reports in agile web agency.

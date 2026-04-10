@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Innovation Strategist & Product Experience
+designation: Senior Strategist & Interactive Producer
 # your company information
 company:
   name: 900lbs
@@ -20,8 +20,7 @@ company:
 # a summary about you
 #summary: "I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc."
 
-summary: ""
-
+summary: I am a future-focused experience leader who bridges the gap between complex engineering and human-centered storytelling. From my early roots in human-computer interaction at Rice University and SMU to my current role at 900lbs, I have spearheaded the delivery of immersive, scalable technology platforms by blending technical project management with a deep fascination for psychology and emerging tech. I thrive on operationalizing innovation, whether by scaling organizational change or leveraging AI to solve the most intricate B2B product challenges, ensuring every project is a high-performance marriage of vision and results.
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -43,14 +42,19 @@ socialLinks:
 
   - name: Mastadon
     icon: "fab fa-mastodon"
-    url: "#"
+    url: "@mitchelltmassey@universeodon.com"
+    rel: "me noopener"
+
+  - name: Bluesky
+    icon: fab fa-bluesky
+    url: "@mitchelltmassey.bsky.social"
     rel: "me noopener"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
   - title: "My Resume"
-    url: "files/resume.pdf"
+    url: files/resume2.pdf
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

@@ -20,13 +20,13 @@ degrees:
       # Can optionally show a different logo for dark theme
       # darkLogo: /images/sections/education/tech_college.png
 
-    publications: #(optional)
-      - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        url: "#"
-      - title: Fusce eu augue ut odio porttitor pulvinar.
-        url: "#"
-      - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-        url: "#"
+    #publications: #(optional)
+    # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #     url: "#"
+    #  - title: Fusce eu augue ut odio porttitor pulvinar.
+    #    url: "#"
+    #  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+    # url: "#"
 
   - name: B.A., Cognitive Sciences
     icon: fa-graduation-cap
@@ -38,36 +38,47 @@ degrees:
       # Can optionally show a different logo for dark theme
       # darkLogo: /images/sections/education/university.jpg
 
-    takenCourses: #(optional)
-      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-      showGrades: true
-      collapseAfter: 3
-      courses:
-        - name: Data Structures and Algorithm
-          achieved: 3.75
-          outOf: 4
-        - name: Network Security
-          achieved: 3.80
-          outOf: 4
-        - name: Operating System
-          achieved: 3.5
-          outOf: 4
-        - name: Artificial Intelligent
-          achieved: 3.75
-          outOf: 4
-    publications: #(optional)
-      - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        url: "#"
-      - title: Fusce eu augue ut odio porttitor pulvinar.
-        url: "#"
+    #takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    #  showGrades: true
+    #  collapseAfter: 3
+    #  courses:
+    #    - name: Data Structures and Algorithm
+    #      achieved: 3.75
+    #      outOf: 4
+    #    - name: Network Security
+    #       achieved: 3.80
+    #      outOf: 4
+    #    - name: Operating System
+    #      achieved: 3.5
+    #      outOf: 4
+    #    - name: Artificial Intelligent
+    #      achieved: 3.75
+    #      outOf: 4
+    # publications: #(optional)
+    #  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   url: "#"
+    #  - title: Fusce eu augue ut odio porttitor pulvinar.
+    #    url: "#"
     extracurricularActivities: #(optional)
-      - In vitae facilisis est, eget porta sem.
-      - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-      - Duis sed massa feugiat, ornare justo et, aliquam est.
-      - Pellentesque ut fringilla magna.
+      - Honor Council
+      - Employee at The Hoot (student run business)
+      - Intermural Sports Captain (IQA)
+      - Beer Bike Committee and Jones College Associates Committee
+      - "Wiess Tabletop Theater: Hello Hamlet"
+      - "Rice Chorale (Tenor): Mozart’s Requiem, Winter Concert, and Brahms’s Requiem"
+
     customSections: #(optional)
-      - name: Thesis
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      - name: Supervisor
-        content: Fusce eu augue ut odio porttitor pulvinar.
-        outOf: 5
+      - name: Degree
+        content: B.A. Cognitive Sciences, Human Factors & Human-Computer Interaction
+      - name: Research Focuses
+        content: Human Computer Interaction & Usability Research, Voting Systems, Wearables, Quant. Analysis, Organizational Psych; Game Design
+      - name: Special Programs
+        content: "Student Presentation - Introduction to Unity Engine \n\nFondren Library - UX Research Lab\n\niPad Accessibility Keynote Presentation\n\nKinder Institute for Urban Policy Global Urban Lab - Transportation Research Project - Comparative Rail Transportation Policy in Houston and Istanbbul)\n\nJones Graduate School of Business (Coursework in Leadership, Entrepreneurship)"
+
+#  - https://cogsci.rice.edu/
+# - name: Thesis
+#   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# - name: Supervisor
+#   content: Fusce eu augue ut odio porttitor pulvinar.
+#   outOf: 5
