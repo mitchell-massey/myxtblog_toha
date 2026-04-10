@@ -3,22 +3,28 @@ section:
   name: Achievements
   id: achievements
   enable: true
-  weight: 10
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+  - title: GACEP Supplier Movember
+    image: images/sections/achievements/gacep.png
+    summary: From 2020 - 2026, I have maintained my (and 900lbs) status as a supplier member for the Customer Experience professionals association GACEP (formerly ABPM - Association of Briefing Program Managers)
+  - title: ClickUp AI Power User
+    image: images/sections/achievements/clickup.jpeg
+    summary: Recognized by ClickUp software company as a top 10% power user of Clickup AI tools.
+  - title: InfoComm 2024 - rAVe[PUBS] Award - Best of Show - Best New Technology
+    image: /images/sections/achievements/awardpv.jpeg
+    summary: As a cutting edge software and hardware platform in the streaming and communications category, soft launching at InfoComm 2024 in Las Vegas, PeerVsn was awarded "Best in Show - Best New Technology" by the Number 1 AV publication. My pitch presentation was recorded and reviewed by a panel, landing us the award.
+  - title: Royal Caribbean Group - Innovation Team Hackathon - 1st Place
+    image: /images/sections/achievements/hackathon.jpg
+    summary: In 2019, I led concept, creative and research for a hackathon team. We presented a working prototype of Augmented Reality wayfinding using Unity, ARKit, and Area Tracking, winning first place over 20+ RCCL employee engineer teams.
+  - title: Most Dependable, 900lbs Hundies Awards, 2018
+    image: /images/sections/achievements/award2018.jpg
+    summary: Voted by my peers and leadership "Most Dependable" just after completing my 1st year as Project Manager.
+  - title: Massey's Mustache, 900lbs "Hundies Awards " 2019
+    image: /images/sections/achievements/award2019.jpg
+    summary: After a very strong "Movember" - I was recognized for incredible facial hair.
